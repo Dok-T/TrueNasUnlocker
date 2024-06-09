@@ -9,7 +9,7 @@ This script is designed to unlock TrueNAS Scale 24.04.1.1 by allowing write acce
 2. **Execution:** Open a terminal and execute the script with superuser (root) privileges using the following command:
 
     ```bash
-    sudo ./unlock_truenas.sh
+    sudo ./unlock.sh
     ```
 
 3. **Follow the instructions:** The script will guide you through the unlocking process. Make sure to carefully follow the displayed instructions.
@@ -19,7 +19,7 @@ This script is designed to unlock TrueNAS Scale 24.04.1.1 by allowing write acce
 5. **Recommendation:** Once the system is unlocked and the partitions are writable, it is recommended to rename the `unlock_truenas.sh` script to `unlock` and copy it to `/usr/bin` for easier access using the following command:
 
     ```bash
-    sudo cp unlock_truenas.sh /usr/bin/unlock
+    sudo cp unlock.sh /usr/bin/unlock
     ```
 
 ## Disclaimer
@@ -47,7 +47,7 @@ Ce script est conçu pour déverrouiller TrueNAS Scale 24.04.1.1 en permettant l
 2. **Exécution :** Ouvrez un terminal et exécutez le script avec les privilèges de superutilisateur (root) en utilisant la commande suivante :
 
     ```bash
-    sudo ./unlock_truenas.sh
+    sudo ./unlock.sh
     ```
 
 3. **Suivez les instructions :** Le script vous guidera à travers le processus de déverrouillage. Assurez-vous de suivre attentivement les instructions affichées.
@@ -57,7 +57,7 @@ Ce script est conçu pour déverrouiller TrueNAS Scale 24.04.1.1 en permettant l
 5. **Recommandation :** Une fois le système déverrouillé et les partitions accessibles en écriture, il est recommandé de renommer le script `unlock_truenas.sh` en `unlock` et de le copier dans `/usr/bin` pour un accès plus facile en utilisant la commande suivante :
 
     ```bash
-    sudo cp unlock_truenas.sh /usr/bin/unlock
+    sudo cp unlock.sh /usr/bin/unlock
     ```
 
 ## Avertissement
