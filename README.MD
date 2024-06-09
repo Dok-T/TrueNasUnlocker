@@ -2,6 +2,8 @@
 
 This script is designed to unlock TrueNAS Scale 24.04.1.1 by allowing write access to the file system and unlocking the `apt` and `dpkg` package management tools.
 
+![screenshot](screenshot.jpeg)
+
 ## Usage
 
 1. **Download:** Download the `unlock_truenas.sh` script from this repository.
